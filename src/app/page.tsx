@@ -28,7 +28,7 @@ const Todo = () => {
     return ( 
         <>
 
-        <div className="flex flex-col w-full justify-center items-center" >
+        <div className="flex flex-col w-full justify-center items-center border-2" >
         <h1 style={{textAlign:'center', fontSize:'30px', color:'#000', fontWeight:'700', marginTop:'20px'}}>Todo List</h1>
              <div className="flex w-full justify-center items-center max-w-md flex-wrap md:flex-nowrap gap-4 mt-4">
                 <Input label="Add your new todo" type="text" value={inputValue}
