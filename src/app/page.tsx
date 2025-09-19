@@ -33,7 +33,7 @@ const Todo = () => {
     const addTodo = () => {
        if (inputValue.trim() !== "") {
       setTodo([...todo, inputValue]);
-      setInputValue(""); // очистим поле после добавления
+      setInputValue("");
         }
     }
 
