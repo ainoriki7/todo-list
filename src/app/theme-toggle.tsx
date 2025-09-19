@@ -10,10 +10,10 @@ export function ThemeToggle () {
 
     return (
             <Button 
-                className="rounded-full"
+                className="rounded-full mt-10"
                 onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-            <FaSun className=""></FaSun>
-            <FaMoon></FaMoon>
-        </Button>
+            <FaSun className="absolute h-5 w-5 text-yellow-500 transition-all duration-300 scale-100 dark:scale-0" />
+            <FaMoon className="absolute h-5 w-5 text-blue-500 transition-all duration-300 scale-0 dark:scale-100" />
+            </Button>
     )
 }
